@@ -6,7 +6,7 @@
   "scripts": {
     "develop": "NODE_ENV=development node ./bin/www",
     "buildDev": "webpack --config webpack.dev.js",
-    "test": "mocha --recursive --require @babel/register \"./test/**/*.spec.js\""
+    "test": "mocha --require @babel/register \"./test/**/*.spec.js\""
   },
   "keywords": [],
   "author": "",
