@@ -1,8 +1,5 @@
-import { groupBy } from "lodash-es"
-import people from "./people"
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-const managerGroups = groupBy(people, "manager");
-
-const root = document.createElement("div");
-root.innerHTML = `<pre>${JSON.stringify(people, null, 2)}</pre>`;
-document.body.appendChild(root);
+ReactDOM.render(<App />, document.getElementById('root'));

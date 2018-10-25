@@ -1,6 +1,6 @@
 const presets = [
   [
-    "@babel/env",
+    "@babel/preset-react",
     {
       targets: {
         edge: "17",
@@ -11,6 +11,7 @@ const presets = [
       useBuiltIns: "usage",
     },
   ],
+  ["@babel/env"]
 ];
 
 module.exports = { presets };

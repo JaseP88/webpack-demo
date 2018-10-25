@@ -1,0 +1,4 @@
+--require @babel/register
+        --require test/test-suite-setup
+        --reporter spec
+        --ui bdd
