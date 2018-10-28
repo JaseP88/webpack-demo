@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import AppList from './AppList';
 
 class App extends Component {
   constructor(props) {
@@ -21,6 +22,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <button className="App-button" onClick={this.handleMe}>click me</button>
+        <AppList />
       </div>
     );
   }
