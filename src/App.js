@@ -22,6 +22,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <button className="App-button" onClick={this.handleMe}>click me</button>
+        <button className="App-disabled-button" disabled={true}>disabled</button>
         <AppList />
       </div>
     );

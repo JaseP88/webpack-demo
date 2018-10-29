@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc50d19-2067-40ce-b8c5-6854a42648d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/components/App.spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RandomWordService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RandomWordStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/components/AppList.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test-suite-setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test-suite-setup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyHelloGuy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyHelloGuy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/components/App.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/App.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/my-test.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/my-test.spec.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +38,8 @@
           <entry key="cs" value="1" />
           <entry key="gitignore" value="3" />
           <entry key="html" value="1" />
-          <entry key="js" value="42" />
-          <entry key="json" value="10" />
+          <entry key="js" value="58" />
+          <entry key="json" value="13" />
           <entry key="opts" value="3" />
           <entry key="pug" value="3" />
           <entry key="www" value="2" />
@@ -46,17 +50,18 @@
           <entry key="C#" value="1" />
           <entry key="Git file" value="3" />
           <entry key="HTML" value="1" />
-          <entry key="JSON" value="10" />
+          <entry key="JSON" value="13" />
           <entry key="Jade" value="3" />
-          <entry key="JavaScript" value="42" />
+          <entry key="JavaScript" value="58" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="JavaScript Console" value="40" />
           <entry key="gitignore" value="13" />
-          <entry key="js" value="2295" />
-          <entry key="json" value="192" />
+          <entry key="js" value="4179" />
+          <entry key="json" value="194" />
           <entry key="opts" value="85" />
           <entry key="pug" value="300" />
           <entry key="www" value="3" />
@@ -65,9 +70,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="13" />
-          <entry key="JSON" value="192" />
+          <entry key="JSON" value="194" />
           <entry key="Jade" value="300" />
-          <entry key="JavaScript" value="2295" />
+          <entry key="JavaScript" value="4219" />
           <entry key="PLAIN_TEXT" value="88" />
         </counts>
       </usages-collector>
@@ -86,24 +91,45 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="182">
-                  <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+                <state relative-caret-position="432">
+                  <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="46" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/test-suite-setup.js">
+            <entry file="file://$PROJECT_DIR$/src/AppList.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+                <state relative-caret-position="180">
+                  <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
                   <folding>
-                    <element signature="e#0#24#0" expanded="true" />
+                    <element signature="e#0#41#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/babel.config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="324">
+                  <caret line="18" selection-start-line="18" selection-end-line="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/RandomWordService.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="126">
+                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -115,11 +141,41 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/components/App.spec.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="305">
-                  <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+                <state relative-caret-position="315">
+                  <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/components/AppList.spec.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="278">
+                  <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#0#40#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="504">
+                  <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/RandomWordStore.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="252">
+                  <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -134,6 +190,8 @@
       <find>opt</find>
       <find>chai</find>
       <find>sinonChai</find>
+      <find>state</find>
+      <find>find</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -161,15 +219,21 @@
         <option value="$PROJECT_DIR$/src/App.cs" />
         <option value="$PROJECT_DIR$/webpack.common.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/page.pug" />
         <option value="$PROJECT_DIR$/src/hello.js" />
-        <option value="$PROJECT_DIR$/babel.config.js" />
-        <option value="$PROJECT_DIR$/test/my-test.spec.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test/test-suite-setup.js" />
-        <option value="$PROJECT_DIR$/test/components/App.spec.js" />
+        <option value="$PROJECT_DIR$/src/RandomWOrdService.js" />
+        <option value="$PROJECT_DIR$/test/my-test.spec.js" />
+        <option value="$PROJECT_DIR$/src/MyHelloGuy.js" />
+        <option value="$PROJECT_DIR$/src/RandomWordStore.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/babel.config.js" />
+        <option value="$PROJECT_DIR$/src/RandomWordService.js" />
+        <option value="$PROJECT_DIR$/src/AppList.js" />
+        <option value="$PROJECT_DIR$/test/components/AppList.spec.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/test/components/App.spec.js" />
       </list>
     </option>
   </component>
@@ -196,9 +260,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="106" />
-    <option name="width" value="1440" />
-    <option name="height" value="794" />
+    <option name="x" value="1920" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1016" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -252,7 +317,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540690817860" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540847797193" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.12.0" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -289,7 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.App component test">
+  <component name="RunManager" selected="Mocha.App component test.shallow testing.disable button">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -325,21 +390,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App component test" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="App component test.shallow testing.disable button" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
       <pass-parent-env>true</pass-parent-env>
       <ui>bdd</ui>
       <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
+      <test-kind>TEST</test-kind>
       <test-file>$PROJECT_DIR$/test/components/App.spec.js</test-file>
       <test-names>
         <name value="App component test" />
+        <name value="shallow testing" />
+        <name value="disable button" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Array" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="App component test.shallow testing.shallow testing child components.contains API" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/components/App.spec.js</test-file>
+      <test-names>
+        <name value="App component test" />
+        <name value="shallow testing" />
+        <name value="shallow testing child components" />
+        <name value="contains API" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="App component test.shallow testing.shallow testing child components.find API" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/components/App.spec.js</test-file>
+      <test-names>
+        <name value="App component test" />
+        <name value="shallow testing" />
+        <name value="shallow testing child components" />
+        <name value="find API" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="AppList" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
@@ -347,53 +448,41 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/test/my-test.spec.js</test-file>
+      <test-file>$PROJECT_DIR$/test/components/AppList.spec.js</test-file>
       <test-names>
-        <name value="Array" />
+        <name value="AppList" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Array.hello" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration name="AppList.should call randomWordService" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
       <pass-parent-env>true</pass-parent-env>
       <ui>bdd</ui>
       <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/test/my-test.spec.js</test-file>
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/components/AppList.spec.js</test-file>
       <test-names>
-        <name value="Array" />
-        <name value="hello" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="myTestyGuy" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/test/my-test.spec.js</test-file>
-      <test-names>
-        <name value="myTestyGuy" />
+        <name value="AppList" />
+        <name value="should call randomWordService" />
       </test-names>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Mocha.Array.hello" />
-      <item itemvalue="Mocha.Array" />
-      <item itemvalue="Mocha.myTestyGuy" />
-      <item itemvalue="Mocha.App component test" />
+      <item itemvalue="Mocha.AppList" />
+      <item itemvalue="Mocha.AppList.should call randomWordService" />
+      <item itemvalue="Mocha.App component test.shallow testing.shallow testing child components.contains API" />
+      <item itemvalue="Mocha.App component test.shallow testing.shallow testing child components.find API" />
+      <item itemvalue="Mocha.App component test.shallow testing.disable button" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Mocha.App component test" />
-        <item itemvalue="Mocha.myTestyGuy" />
-        <item itemvalue="Mocha.Array" />
-        <item itemvalue="Mocha.Array.hello" />
+        <item itemvalue="Mocha.App component test.shallow testing.disable button" />
+        <item itemvalue="Mocha.App component test.shallow testing.shallow testing child components.find API" />
+        <item itemvalue="Mocha.App component test.shallow testing.shallow testing child components.contains API" />
+        <item itemvalue="Mocha.AppList" />
+        <item itemvalue="Mocha.AppList.should call randomWordService" />
       </list>
     </recent_temporary>
   </component>
@@ -411,49 +500,59 @@
       <workItem from="1540003489705" duration="1199000" />
       <workItem from="1540309053111" duration="7241000" />
       <workItem from="1540326435740" duration="7020000" />
-      <workItem from="1540417226862" duration="17268000" />
+      <workItem from="1540417226862" duration="30804000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="App_component_test - 2018.10.27 at 20h 26m 04s.xml">
-      <configuration name="App component test" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 27m 48s.xml">
+      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="App_component_test - 2018.10.27 at 20h 32m 09s.xml">
-      <configuration name="App component test" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 28m 02s.xml">
+      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="App_component_test - 2018.10.27 at 20h 33m 04s.xml">
-      <configuration name="App component test" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 28m 17s.xml">
+      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="App_component_test - 2018.10.27 at 20h 33m 34s.xml">
-      <configuration name="App component test" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 28m 57s.xml">
+      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="App_component_test - 2018.10.27 at 20h 35m 38s.xml">
-      <configuration name="App component test" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 30m 24s.xml">
+      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="App_component_test - 2018.10.27 at 20h 36m 22s.xml">
-      <configuration name="App component test" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 35m 51s.xml">
+      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="App_component_test - 2018.10.27 at 20h 36m 33s.xml">
-      <configuration name="App component test" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 35m 52s.xml">
+      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="App_component_test - 2018.10.27 at 20h 37m 49s.xml">
-      <configuration name="App component test" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 35m 55s.xml">
+      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="App_component_test - 2018.10.27 at 20h 39m 17s.xml">
-      <configuration name="App component test" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 36m 04s.xml">
+      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="App_component_test - 2018.10.27 at 20h 40m 10s.xml">
-      <configuration name="App component test" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 59m 45s.xml">
+      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39980000" />
+    <option name="totallyTimeSpent" value="53516000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="106" width="1440" height="794" extended-state="0" />
+    <frame x="1920" y="23" width="1920" height="1016" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18669528" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18636848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -463,12 +562,12 @@
       <window_info id="npm" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919955" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32842416" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32741398" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39955604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" weight="0.21207659" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32963374" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" visible="true" weight="0.1509434" />
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.32996634" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -484,12 +583,105 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18636848" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="npm" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32919955" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32741398" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" weight="0.1509434" />
+      <window_info anchor="bottom" id="Docker" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.32996634" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/components/App.spec.js</url>
+          <line>29</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>disableButton</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>disableButton.props().disabled</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>disableButton.props().disabled()</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>disableButton.props().diabled</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>disableButton.props()</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>disableButton.props().children</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>disableButton.props().getChildren()</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>disableButton.props().children()</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>disableButton.props)()</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dist/bundle.js" />
@@ -587,31 +779,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/babel.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyHelloGuy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -625,40 +796,101 @@
     <entry file="file://$PROJECT_DIR$/test/idontbelong.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/my-test.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test-suite-setup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="288">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/components/App.spec.js">
+    <entry file="file://$PROJECT_DIR$/test/my-test.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="211">
+          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyHelloGuy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RandomWordStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/babel.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RandomWordService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/components/AppList.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+        <state relative-caret-position="432">
+          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/components/App.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

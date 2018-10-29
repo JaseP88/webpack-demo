@@ -5,13 +5,6 @@ import App from '../../src/App';
 import AppList from '../../src/AppList';
 import sinon from 'sinon';
 
-// import jsdom from 'jsdom'
-// const doc = jsdom.jsdom('<!doctype html><html><body></body></html>')
-// global.document = doc
-// global.window = doc.defaultView
-
-
-
 describe('App component test', function () {
   describe('shallow testing', function () {
     it('should find the title', function () {
@@ -31,12 +24,18 @@ describe('App component test', function () {
       expect(component.state().name).to.equal('new');
     });
 
+    it('disable button', function () {
+      const component = shallow(<App />);
+      let disableButton = component.find('.App-disabled-button');
+      expect(disableButton.props().disabled).to.equal(true);
+    });
+
     describe('shallow testing child components', function () {
       it('find API', function () {
         const component = shallow(<App />);
         const result = component.find(AppList);
         // expect(result).to.equal(true);
-        expect(result).to.have.lengthOf(1);;
+        expect(result).to.have.lengthOf(1);
       });
 
       it('contains API', function () {
