@@ -1,4 +1,4 @@
-import RandomWordStore from './RandomWordStore';
+import RandomWordStore from '../stores/RandomWordStore';
 
 class RandomWordService {
   constructor() {

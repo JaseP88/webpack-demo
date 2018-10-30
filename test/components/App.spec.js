@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
 import { expect } from 'chai';
-import App from '../../src/App';
-import AppList from '../../src/AppList';
+import App from '../../src/components/App';
+import AppList from '../../src/components/AppList';
 import sinon from 'sinon';
 
 describe('App component test', function () {

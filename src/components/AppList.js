@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import RandomWordService from './RandomWordService';
+import RandomWordService from '../services/RandomWordService';
 import { observer } from 'mobx-react';
 
 @observer
