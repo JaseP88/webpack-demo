@@ -3,6 +3,7 @@ import sinonChai from 'sinon-chai';
 import { configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import jsdom from 'jsdom';
+import '@babel/polyfill';
 
 // utilize chai plugin sinonChai
 chai.use(sinonChai);

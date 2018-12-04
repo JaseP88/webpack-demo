@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc50d19-2067-40ce-b8c5-6854a42648d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/services/AsynchronousService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/components/App.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/components/App.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-suite-setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test-suite-setup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,36 +30,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/babel.config.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/App.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="432">
-                  <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/components/App.spec.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="351">
-                  <caret line="29" selection-start-line="29" selection-end-line="29" />
+                <state relative-caret-position="343">
+                  <caret line="80" column="11" lean-forward="true" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -65,8 +45,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test/components/AppList.spec.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="468">
-                  <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+                <state relative-caret-position="30">
+                  <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="5" />
                   <folding>
                     <element signature="e#0#40#0" expanded="true" />
                   </folding>
@@ -75,10 +55,65 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/test-suite-setup.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="162">
+                  <caret line="9" selection-start-line="9" selection-end-line="9" />
+                  <folding>
+                    <element signature="e#0#24#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="504">
-                  <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+                <state relative-caret-position="702">
+                  <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/services/AsynchronousService.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/webpack.dev.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/webpack.common.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="36">
+                  <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/App.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="390">
+                  <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -95,6 +130,9 @@
       <find>sinonChai</find>
       <find>state</find>
       <find>find</find>
+      <find>polyfill</find>
+      <find>polyy</find>
+      <find>polly</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -120,23 +158,24 @@
         <option value="$PROJECT_DIR$/test/deep/third.spec.js" />
         <option value="$PROJECT_DIR$/test/deep/diff-test.spec.js" />
         <option value="$PROJECT_DIR$/src/App.cs" />
-        <option value="$PROJECT_DIR$/webpack.common.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/views/page.pug" />
         <option value="$PROJECT_DIR$/src/hello.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/test/test-suite-setup.js" />
         <option value="$PROJECT_DIR$/src/RandomWOrdService.js" />
         <option value="$PROJECT_DIR$/test/my-test.spec.js" />
         <option value="$PROJECT_DIR$/src/MyHelloGuy.js" />
         <option value="$PROJECT_DIR$/src/RandomWordStore.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/RandomWordService.js" />
         <option value="$PROJECT_DIR$/src/AppList.js" />
         <option value="$PROJECT_DIR$/test/components/AppList.spec.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/test/components/App.spec.js" />
         <option value="$PROJECT_DIR$/babel.config.js" />
+        <option value="$PROJECT_DIR$/test/test-suite-setup.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/webpack.common.js" />
+        <option value="$PROJECT_DIR$/src/services/AsynchronousService.js" />
+        <option value="$PROJECT_DIR$/test/components/App.spec.js" />
         <option value="$PROJECT_DIR$/src/components/App.js" />
       </list>
     </option>
@@ -147,11 +186,10 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
-    <option name="y" value="63" />
-    <option name="width" value="1920" />
-    <option name="height" value="976" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -160,7 +198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,12 +213,40 @@
             <path>
               <item name="webpack-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="webpack-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cypress" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="cypress" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webpack-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="webpack-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -194,13 +259,14 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540847797193" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543959148586" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.12.0" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -237,7 +303,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.App component test.shallow testing.disable button">
+  <component name="RunManager" selected="Mocha.App component test.Lifecycle.on error">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -273,6 +339,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App component test.Lifecycle.componentWillMount" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/components/App.spec.js</test-file>
+      <test-names>
+        <name value="App component test" />
+        <name value="Lifecycle" />
+        <name value="componentWillMount" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="App component test.Lifecycle.on error" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/components/App.spec.js</test-file>
+      <test-names>
+        <name value="App component test" />
+        <name value="Lifecycle" />
+        <name value="on error" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="App component test.Lifecycle.on promise error" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/components/App.spec.js</test-file>
+      <test-names>
+        <name value="App component test" />
+        <name value="Lifecycle" />
+        <name value="on promise error" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="App component test.Lifecycle.wtf" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/components/App.spec.js</test-file>
+      <test-names>
+        <name value="App component test" />
+        <name value="Lifecycle" />
+        <name value="wtf" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="App component test.shallow testing.disable button" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -290,83 +424,20 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="App component test.shallow testing.shallow testing child components.contains API" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/components/App.spec.js</test-file>
-      <test-names>
-        <name value="App component test" />
-        <name value="shallow testing" />
-        <name value="shallow testing child components" />
-        <name value="contains API" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="App component test.shallow testing.shallow testing child components.find API" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/components/App.spec.js</test-file>
-      <test-names>
-        <name value="App component test" />
-        <name value="shallow testing" />
-        <name value="shallow testing child components" />
-        <name value="find API" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="AppList" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/test/components/AppList.spec.js</test-file>
-      <test-names>
-        <name value="AppList" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="AppList.should call randomWordService" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/components/AppList.spec.js</test-file>
-      <test-names>
-        <name value="AppList" />
-        <name value="should call randomWordService" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Mocha.AppList" />
-      <item itemvalue="Mocha.AppList.should call randomWordService" />
-      <item itemvalue="Mocha.App component test.shallow testing.shallow testing child components.contains API" />
-      <item itemvalue="Mocha.App component test.shallow testing.shallow testing child components.find API" />
       <item itemvalue="Mocha.App component test.shallow testing.disable button" />
+      <item itemvalue="Mocha.App component test.Lifecycle.componentWillMount" />
+      <item itemvalue="Mocha.App component test.Lifecycle.on promise error" />
+      <item itemvalue="Mocha.App component test.Lifecycle.on error" />
+      <item itemvalue="Mocha.App component test.Lifecycle.wtf" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Mocha.App component test.Lifecycle.on error" />
+        <item itemvalue="Mocha.App component test.Lifecycle.wtf" />
+        <item itemvalue="Mocha.App component test.Lifecycle.on promise error" />
+        <item itemvalue="Mocha.App component test.Lifecycle.componentWillMount" />
         <item itemvalue="Mocha.App component test.shallow testing.disable button" />
-        <item itemvalue="Mocha.App component test.shallow testing.shallow testing child components.find API" />
-        <item itemvalue="Mocha.App component test.shallow testing.shallow testing child components.contains API" />
-        <item itemvalue="Mocha.AppList" />
-        <item itemvalue="Mocha.AppList.should call randomWordService" />
       </list>
     </recent_temporary>
   </component>
@@ -386,43 +457,44 @@
       <workItem from="1540326435740" duration="7020000" />
       <workItem from="1540417226862" duration="30804000" />
       <workItem from="1543855852264" duration="351000" />
+      <workItem from="1543941686093" duration="12215000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 27m 48s.xml">
-      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_Lifecycle_on_error - 2018.12.04 at 13h 17m 28s.xml">
+      <configuration name="App component test.Lifecycle.on error" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 28m 02s.xml">
-      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_Lifecycle_on_error - 2018.12.04 at 13h 25m 47s.xml">
+      <configuration name="App component test.Lifecycle.on error" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 28m 17s.xml">
-      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_Lifecycle_on_error - 2018.12.04 at 13h 26m 08s.xml">
+      <configuration name="App component test.Lifecycle.on error" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 28m 57s.xml">
-      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_Lifecycle_on_error - 2018.12.04 at 13h 26m 40s.xml">
+      <configuration name="App component test.Lifecycle.on error" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 30m 24s.xml">
-      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_Lifecycle_on_error - 2018.12.04 at 13h 30m 29s.xml">
+      <configuration name="App component test.Lifecycle.on error" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 35m 51s.xml">
-      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_Lifecycle_on_error - 2018.12.04 at 13h 30m 55s.xml">
+      <configuration name="App component test.Lifecycle.on error" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 35m 52s.xml">
-      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_Lifecycle_on_error - 2018.12.04 at 13h 39m 48s.xml">
+      <configuration name="App component test.Lifecycle.on error" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 35m 55s.xml">
-      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_Lifecycle_on_error - 2018.12.04 at 13h 40m 22s.xml">
+      <configuration name="App component test.Lifecycle.on error" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 36m 04s.xml">
-      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_Lifecycle_on_error - 2018.12.04 at 13h 40m 43s.xml">
+      <configuration name="App component test.Lifecycle.on error" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="App_component_test_shallow_testing_disable_button - 2018.10.29 at 14h 59m 45s.xml">
-      <configuration name="App component test.shallow testing.disable button" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="App_component_test_Lifecycle_on_error - 2018.12.04 at 13h 41m 08s.xml">
+      <configuration name="App component test.Lifecycle.on error" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53867000" />
+    <option name="totallyTimeSpent" value="68514000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -434,10 +506,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="63" width="1920" height="976" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18636848" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25035766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -447,17 +519,16 @@
       <window_info id="npm" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919955" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3263158" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39955604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3240418" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39953542" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32963374" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" weight="0.1509434" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" visible="true" weight="0.16929133" />
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5005325" side_tool="true" weight="0.32982457" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.329849" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.329849" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -468,6 +539,7 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18636848" />
@@ -530,9 +602,45 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/test/components/App.spec.js</url>
+          <line>59</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>component.state()</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>component.state().number</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>disableButton</expression-string>
         <language-id>JavaScript</language-id>
@@ -568,16 +676,6 @@
         <language-id>JavaScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>disableButton.props().children()</expression-string>
-        <language-id>JavaScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>disableButton.props)()</expression-string>
-        <language-id>JavaScript</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
@@ -607,20 +705,6 @@
     <entry file="file://$PROJECT_DIR$/src/my-test.spec.js" />
     <entry file="file://$PROJECT_DIR$/test/deep/diff-test.spec.js" />
     <entry file="file://$PROJECT_DIR$/test/deep/third.spec.js" />
-    <entry file="file://$PROJECT_DIR$/webpack.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css" />
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -661,16 +745,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/idontbelong.js" />
-    <entry file="file://$PROJECT_DIR$/test/test-suite-setup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/my-test.spec.js" />
     <entry file="file://$PROJECT_DIR$/src/MyHelloGuy.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -686,44 +760,82 @@
     <entry file="file://$PROJECT_DIR$/src/RandomWordService.js" />
     <entry file="file://$PROJECT_DIR$/src/AppList.js" />
     <entry file="file://$PROJECT_DIR$/src/App.js" />
-    <entry file="file://$PROJECT_DIR$/test/components/AppList.spec.js">
+    <entry file="file://$PROJECT_DIR$/src/services/RandomWordService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state>
+          <caret selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test-suite-setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="702">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/babel.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/AsynchronousService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/components/AppList.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/components/App.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="343">
+          <caret line="80" column="11" lean-forward="true" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/babel.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="390">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
